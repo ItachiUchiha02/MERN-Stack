@@ -6,7 +6,7 @@ import './MainHeader.css';
 
 const MainNavigation = props => {
     return <MainHeader>
-        <button>
+        <button className="main-navigation__menu0">
             <span />
             <span />
             <span />
