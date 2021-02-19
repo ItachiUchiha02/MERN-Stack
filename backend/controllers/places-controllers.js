@@ -96,7 +96,7 @@ const createPlace = async (req, res, next) => {
     res.status(201).json({place: createdPlace});
 };
 
-const updatePlace = aync (req, res, next) => {
+const updatePlace = async (req, res, next) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         throw new HttpError('Invalid inputs passed, please check your data', 422);
